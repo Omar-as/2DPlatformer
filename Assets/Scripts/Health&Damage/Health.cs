@@ -16,11 +16,11 @@ public class Health : MonoBehaviour
 
     [Header("Health Settings")]
     [Tooltip("The default health value")]
-    public int defaultHealth = 1;
+    public int defaultHealth = 2;
     [Tooltip("The maximum health value")]
-    public int maximumHealth = 1;
+    public int maximumHealth = 2;
     [Tooltip("The current in game health value")]
-    public int currentHealth = 1;
+    public int currentHealth = 2;
     [Tooltip("Invulnerability duration, in seconds, after taking damage")]
     public float invincibilityTime = 3f;
 
@@ -28,9 +28,9 @@ public class Health : MonoBehaviour
     [Tooltip("Whether or not to use lives")]
     public bool useLives = false;
     [Tooltip("Current number of lives this health has")]
-    public int currentLives = 3;
+    public int currentLives = 1;
     [Tooltip("The maximum number of lives this health has")]
-    public int maximumLives = 5;
+    public int maximumLives = 1;
     [Tooltip("The amount of time to wait before respawning")]
     public float respawnWaitTime = 3f;
 
