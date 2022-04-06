@@ -9,19 +9,21 @@ public class Portal : MonoBehaviour
 
     public Boolean isRed;
 
+    public GameObject Tp_portal;
     public float distance = 0.2f;
     
     // Start is called before the first frame update
     void Start()
     {
-        if (isRed == false)
-        {
-            destination = GameObject.FindGameObjectWithTag("Red Portal").GetComponent<Transform>();
-        }
-        else
-        {
-            destination = GameObject.FindGameObjectWithTag("Yellow Portal").GetComponent<Transform>();
-        }
+        destination = Tp_portal.transform;
+        //if (isRed == false)
+        //{
+          //  destination = GameObject.FindGameObjectWithTag("Red Portal").GetComponent<Transform>();
+        //}
+        //else
+        //{
+          //  destination = GameObject.FindGameObjectWithTag("Yellow Portal").GetComponent<Transform>();
+        //}
         
     }
 

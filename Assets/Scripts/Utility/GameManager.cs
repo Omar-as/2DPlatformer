@@ -104,7 +104,8 @@ public class GameManager : MonoBehaviour
         if (player != null)
         {
             Health playerHealth = player.GetComponent<Health>();
-
+            PlayerPrefs.SetInt("lives", 0);
+            PlayerPrefs.SetInt("health",0);
             // Set lives accordingly
             if (PlayerPrefs.GetInt("lives") == 0)
             {
