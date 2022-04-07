@@ -918,7 +918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6027391878390376616, guid: 6b278329ac77eb7438a3ac3a58e97860, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 6027391878390376616, guid: 6b278329ac77eb7438a3ac3a58e97860, type: 3}
       propertyPath: m_AnchorMax.x
@@ -18020,6 +18020,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1381234396}
     m_Modifications:
     - target: {fileID: 809394685759187501, guid: 0df34b7df1ca807bab2dc4f8a04008f2, type: 3}
+      propertyPath: distance
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 809394685759187501, guid: 0df34b7df1ca807bab2dc4f8a04008f2, type: 3}
       propertyPath: Tp_portal
       value: 
       objectReference: {fileID: 2007823566}
@@ -21640,6 +21644,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1381234396}
     m_Modifications:
+    - target: {fileID: 809394685759187501, guid: 0df34b7df1ca807bab2dc4f8a04008f2, type: 3}
+      propertyPath: distance
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 809394685759187501, guid: 0df34b7df1ca807bab2dc4f8a04008f2, type: 3}
       propertyPath: Tp_portal
       value: 
