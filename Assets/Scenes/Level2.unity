@@ -2764,6 +2764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Light Green Portal (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6754660074727385144, guid: 1e060055f0875e85e88ce2f86b69aa2d, type: 3}
+      propertyPath: distance
+      value: 0.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e060055f0875e85e88ce2f86b69aa2d, type: 3}
 --- !u!4 &537940835 stripped
@@ -21076,6 +21080,10 @@ PrefabInstance:
     - target: {fileID: 6449584604593578614, guid: 1e060055f0875e85e88ce2f86b69aa2d, type: 3}
       propertyPath: m_Name
       value: Purple Portal (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754660074727385144, guid: 1e060055f0875e85e88ce2f86b69aa2d, type: 3}
+      propertyPath: distance
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e060055f0875e85e88ce2f86b69aa2d, type: 3}
